@@ -11,49 +11,49 @@ const racingBike = [
     {
         bikeName: "Bianchi",
         bikeWeight: 6.8,
- },
-{
+    },
+    {
         bikeName: "Look",
         bikeWeight: 8,
- },
- {
+    },
+    {
         bikeName: "Willier Triestina",
-        bikeWeight: 7.5, 
- },
- {
+        bikeWeight: 7.5,
+    },
+    {
         bikeName: "Pinarello",
-        bikeWeight: 6.9, 
- },
- {
+        bikeWeight: 6.9,
+    },
+    {
         bikeName: "Colnago",
         bikeWeight: 7.3,
- },
- {
+    },
+    {
         bikeName: "Cervelo S5",
         bikeWeight: 6.7,
- },
- {
+    },
+    {
         bikeName: "Canyon",
         bikeWeight: 7.9,
- },
- {
+    },
+    {
         bikeName: "Merida Reacto Team",
         bikeWeight: 7.4,
- },
- {
+    },
+    {
         bikeName: "Specialized",
-        bikeWeight: 6.6, 
- },
- {
+        bikeWeight: 6.6,
+    },
+    {
         bikeName: "Trek",
         bikeWeight: 7.7,
- } 
+    }
 ];
 
 // Stampare a schermo la bici con peso minore.
-let  lessWeightBike = racingBike[0];
-for (let i = 1; i < racingBike.length; i++){
-    if(racingBike[i].bikeWeight < lessWeightBike.bikeWeight){
+let lessWeightBike = racingBike[0];
+for (let i = 1; i < racingBike.length; i++) {
+    if (racingBike[i].bikeWeight < lessWeightBike.bikeWeight) {
         lessWeightBike = racingBike[i];
     }
 }
@@ -66,44 +66,57 @@ console.log("La bici con il peso minore è:", lessWeightBike);
 // Creare un array di oggetti di squadre di calcio. Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti. 
 
 const footballTeams = [
-    { namefootballTeams: "Real Madrid",
-        pointsScored: 0,
-        foulsDrawn: 0, 
-
-},
-{ namefootballTeams: "Barcellona",
+    {
+        namefootballTeams: "Real Madrid",
         pointsScored: 0,
         foulsDrawn: 0,
 
-},
-{ namefootballTeams: "Liverpool",
+    },
+    {
+        namefootballTeams: "Barcellona",
         pointsScored: 0,
         foulsDrawn: 0,
 
-},
-{ namefootballTeams: "Inter",
-        pointsScored: 0, 
-        foulsDrawn: 0,
-
-},
-{ namefootballTeams: "Juventus",
+    },
+    {
+        namefootballTeams: "Liverpool",
         pointsScored: 0,
         foulsDrawn: 0,
 
-},
-{ namefootballTeams: "Roma",
+    },
+    {
+        namefootballTeams: "Inter",
         pointsScored: 0,
         foulsDrawn: 0,
 
-},
-{ namefootballTeams: "Manchester United",
+    },
+    {
+        namefootballTeams: "Juventus",
         pointsScored: 0,
         foulsDrawn: 0,
 
-},
-{ namefootballTeams: "Sampdoria",
+    },
+    {
+        namefootballTeams: "Roma",
         pointsScored: 0,
         foulsDrawn: 0,
 
-}
-]; 
+    },
+    {
+        namefootballTeams: "Manchester United",
+        pointsScored: 0,
+        foulsDrawn: 0,
+
+    },
+    {
+        namefootballTeams: "Sampdoria",
+        pointsScored: 0,
+        foulsDrawn: 0,
+
+    }
+];
+
+console.log(footballTeams);
+
+
+
