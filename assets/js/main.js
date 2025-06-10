@@ -10,47 +10,56 @@ console.log("Hello");
 const racingBike = [
     {
         bikeName: "Bianchi",
-        bikeweight: 6.8,
+        bikeWeight: 6.8,
  },
 {
         bikeName: "Look",
-        bikeweight: 8,
+        bikeWeight: 8,
  },
  {
         bikeName: "Willier Triestina",
-        bikeweight: 7.5, 
+        bikeWeight: 7.5, 
  },
  {
         bikeName: "Pinarello",
-        bikeweight: 6.9, 
+        bikeWeight: 6.9, 
  },
  {
         bikeName: "Colnago",
-        bikeweight: 7.3,
+        bikeWeight: 7.3,
  },
  {
         bikeName: "Cervelo S5",
-        bikeweight: 6.7,
+        bikeWeight: 6.7,
  },
  {
         bikeName: "Canyon",
-        bikeweight: 7.9,
+        bikeWeight: 7.9,
  },
  {
         bikeName: "Merida Reacto Team",
-        bikeweight: 7.4,
+        bikeWeight: 7.4,
  },
  {
         bikeName: "Specialized",
-        bikeweight: 6.6, 
+        bikeWeight: 6.6, 
  },
  {
         bikeName: "Trek",
-        bikeweight: 7.7,
+        bikeWeight: 7.7,
  } 
 ];
 
 // Stampare a schermo la bici con peso minore.
+let  lessWeightBike = racingBike[0];
+for (let i = 1; i < racingBike.length; i++){
+    if(racingBike[i].bikeWeight < lessWeightBike.bikeWeight){
+        lessWeightBike = racingBike[i];
+    }
+}
+
+console.log("La bici con il peso minore è:", lessWeightBike);
+
 
 
 // Snack2
