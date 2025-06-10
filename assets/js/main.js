@@ -135,3 +135,13 @@ for (let i = 0; i < footballTeams.length; i++) {
 
 }
 
+//  Creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti 
+
+const footballTeamsFouls = [];
+for (let i = 0; i < footballTeams.length; i++) {
+    footballTeamsFouls.push({
+        name: footballTeams[i].namefootballTeams,
+        foulsDrawn: footballTeams[i].foulsDrawn,
+    })
+
+}
