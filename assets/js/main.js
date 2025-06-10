@@ -118,5 +118,20 @@ const footballTeams = [
 
 console.log(footballTeams);
 
+// Generare numeri random al posto degli 0 nelle proprietà “punti” fatti e “falli subiti”.
+function randomNumberGenerator(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 
+
+
+for (let i = 0; i < footballTeams.length; i++) {
+    footballTeams[i].pointsScored = randomNumberGenerator(0, 100);
+    footballTeams[i].foulsDrawn = randomNumberGenerator(0, 20);
+    console.log(footballTeams[i].pointsScored);
+    console.log(footballTeams[i].foulsDrawn);
+    console.log(randomNumberGenerator(0, 100));
+
+
+}
 
