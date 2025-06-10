@@ -145,3 +145,6 @@ for (let i = 0; i < footballTeams.length; i++) {
     })
 
 }
+
+//Stampiamo tutto in console
+console.log(footballTeamsFouls);
